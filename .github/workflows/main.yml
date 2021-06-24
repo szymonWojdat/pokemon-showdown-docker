@@ -1,8 +1,9 @@
 name: Update fork
 on:
+  workflow_dispatch:
   schedule:
-     # actually, ~5 minutes is the highest
-     # effective frequency you will get
+    # actually, ~5 minutes is the highest
+    # effective frequency you will get
     - cron:  '5 * * * *'
 jobs:
   update_my_showdown_fork:

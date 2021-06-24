@@ -14,7 +14,7 @@ jobs:
       - name: Update fork
         uses: TobKed/github-forks-sync-action@master
         with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_repository: smogon/pokemon-showdown
           target_repository: szymonWojdat/pokemon-showdown
           upstream_branch: master

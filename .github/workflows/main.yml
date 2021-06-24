@@ -1,5 +1,3 @@
-# .github/workflows/example.yml
-
 name: Update fork
 on:
   schedule:
@@ -7,10 +5,13 @@ on:
      # effective frequency you will get
     - cron:  '5 * * * *'
 jobs:
-  update_external_airflow_fork:
+  update_my_showdown_fork:
     runs-on: ubuntu-latest
     steps:
-      - uses: TobKed/github-forks-sync-action@master
+      - name: Get the output time  # test
+        run: echo "Running the 'Update fork' workflow"
+      - name: Update fork
+        uses: TobKed/github-forks-sync-action@master
         with:
 #          github_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_repository: smogon/pokemon-showdown

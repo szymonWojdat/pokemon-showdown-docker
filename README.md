@@ -1,6 +1,8 @@
 # pokemon-showdown-docker
 Dockerfile and image reference for [Pokemon Showdown server](https://github.com/smogon/pokemon-showdown).
 
+[My image in Docker Hub](https://hub.docker.com/repository/docker/voidmonkey/pokemon-showdown)
+
 # How to
 
 ## Build image and run locally

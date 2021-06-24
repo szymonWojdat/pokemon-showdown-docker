@@ -18,3 +18,9 @@ docker run -p 8000:8000 pokemon-showdown
 ```
 docker run -p 8000:8000 voidmonkey/pokemon-showdown
 ```
+
+## Pass arguments to `pokemon-showdown` command
+You can pass arguments to the main command through `docker run`, eg.:
+```
+docker run voidmonkey/pokemon-showdown start --no-security
+```

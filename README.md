@@ -1,7 +1,9 @@
 # pokemon-showdown-docker
-Dockerfile and image reference for [Pokemon Showdown server](https://github.com/smogon/pokemon-showdown).
+Dockerfile and image reference for [Pokemon Showdown server](https://github.com/smogon/pokemon-showdown):
 
-[My image in Docker Hub](https://hub.docker.com/repository/docker/voidmonkey/pokemon-showdown)
+- [Dockerfile](https://github.com/szymonWojdat/pokemon-showdown/blob/master/Dockerfile)
+
+- [My image in Docker Hub](https://hub.docker.com/repository/docker/voidmonkey/pokemon-showdown)
 
 # How to
 

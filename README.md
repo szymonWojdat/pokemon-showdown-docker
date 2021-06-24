@@ -24,3 +24,6 @@ You can pass arguments to the main command through `docker run`, eg.:
 ```
 docker run -p 8000:8000 voidmonkey/pokemon-showdown start --no-security
 ```
+
+## Docker Hub image is stale
+It technically should be updated every hour. My fork is synced to the upstream every hour via GH Actions and every push to my fork triggers the Docker image to rebuild. If that's not the case, setup an issue (which on its own should trigger a fork sync!) and tag me, if it doesn't resolve itself within a few minutes, I'll take a look myself.
